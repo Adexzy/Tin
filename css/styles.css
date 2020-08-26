@@ -2,31 +2,37 @@ body    {
     font-family: 'Montserrat', sans-serif;
 }
 
-
-h3    {
-    font-weight: bold;
-    font-size: 1.5rem;
+h1, h2, h3, h4, h5, h6  {
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
     color: #8f8f8f;
 }
 
+/* Headings */
+.heading    {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
 
-#title    {
-    background-color: #ff4c68;
+
+#title  {
     color: #fff;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom,
+                from(rgba(92,77,66,0.8)), to(rgba(92,77,66,0.8))),
+                url('../images/fashion.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 50% 50%;
 }
 
 .container-fluid    {
     padding: 3% 15% 100px;
 }
 
-h1    {
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 
 /* Navigation Bar */
 .navbar {
@@ -88,7 +94,12 @@ h1    {
 
 .features-box   {
     text-align: center;
-    padding-bottom: 100px;
+    padding: 100px 0;
+}
+
+.features-box h3    {
+        font-weight: bold;
+        font-size: 1.5rem;
 }
 
 .features-box p {
@@ -104,7 +115,7 @@ h1    {
     color: #fff;
 }
 
-h2    {
+#testimonials h2    {
     font-weight: bold;
     line-height: 1.5;
     font-size: 3rem;
@@ -138,6 +149,17 @@ h2    {
     text-align: center;
 }
 
+#pricing h2 {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+#pricing h3 {
+        font-weight: bold;
+        font-size: 1.5rem;
+}
+
 .pricing-column {
     padding: 3% 2%;
 }
@@ -152,6 +174,12 @@ h2    {
     color: #fff;
     width: 80%;
     margin: auto;
+}
+
+.cta-box h2 {
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
 }
 
 .cta-button {
